@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registerNestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingBottom="20dp"
+    android:paddingRight="20dp"
+    tools:context=".RegisterActivity2">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/registerTextViewUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text=" Username"
+            android:textColor="@color/white"
+            android:textSize="15dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/registerEditTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:backgroundTint="@color/white"
+            android:backgroundTintMode="add"
+            android:maxLines="1"
+            android:textColor="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/registerTextViewPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text=" Password"
+            android:textColor="@color/white"
+            android:textSize="15dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/registerEditTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            
+            android:backgroundTint="@color/white"
+            android:backgroundTintMode="add"
+            android:maxLines="1"
+            android:textColor="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/registerTextViewConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text=" Confirm Password"
+            android:textColor="@color/white"
+            android:textSize="15dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/registerEditTextConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:backgroundTint="@color/white"
+            android:backgroundTintMode="add"
+            android:maxLines="1"
+            android:textColor="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@android:color/holo_green_light"
+            android:text="REGISTER"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/registerTextViewLoginLink"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Already a member? Login"
+            android:textSize="16dp"
+            android:textColor="@android:color/holo_green_light" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>

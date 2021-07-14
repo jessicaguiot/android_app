@@ -1,0 +1,2 @@
+rootProject.name = "TempestApp"
+include ':app'

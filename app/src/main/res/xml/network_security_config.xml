@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:tools="http://schemas.android.com/tools">
+    <base-config>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <domain-config>
+        <domain includeSubdomains="true">google.com</domain>
+        <pin-set>
+            <pin digest="SHA-256">s2UchvbdFUYc4gQ9IJRhM+ZK2FUud6gHzdM4WUHYOyg=</pin>
+        </pin-set>
+    </domain-config>
+
+    <domain-config>
+        <domain includeSubdomains="true">jsonplaceholder.typicode.com</domain>
+        <pin-set>
+            <pin digest="SHA-256">XlCPXC6IrttTF9Y1887kS+efCCf3uFjHW6D1TUI9f+Q=</pin>
+        </pin-set>
+    </domain-config>
+</network-security-config>

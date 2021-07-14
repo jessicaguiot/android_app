@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TempestApp</string>
+    <string name="error_message_username">Enter Username</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="error_message_password_match">Passwords Does Not Matches</string>
+    <string name="error_message_username_exists">Username Already Exists</string>
+    <string name="error_valid_username_password">Wrong Email or Password</string>
+    <string name="success_message_register">Registration Successful</string>
+</resources>
