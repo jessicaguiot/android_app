@@ -45,7 +45,7 @@ class LoginActivity: AppCompatActivity(), View.OnClickListener {
 
     private lateinit var sessionManager: SessionManager
 
-    private val SAFETY_NET_CHECK_API_KEY = "AIzaSyCyaCITn7uN06p2RprFB7aJKBaGlrmpVxg"
+    private val SAFETY_NET_CHECK_API_KEY = "API_KEY"
     private var isDeviceRooted = false
 
 
